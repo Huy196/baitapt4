@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        #huy, #huy ul, #huy li{
+            padding: 0;
+            margin: 0;
+        }
+        #huy li{
+            list-style: none;
+            position: relative;
+            width: 100px;
+            padding: 0 20px;
+            height: 30px;
+            background-color: black;
+            line-height: 30px;
+            cursor: pointer;
+        }
+        #huy a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        #huy li:hover{
+            background-color: red;        
+        }
+        #huy ul ul {
+            position: absolute;
+            top: 0;
+            left: 160px;
+            visibility: hidden;
+        }
+        #huy ul li:hover ul{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <h3>ACCP i10</h3>
+    <div id="huy">
+    <ul>
+        <li><a href="#">Sem 1</a>
+    <ul>
+        <li><a href="#">Computing Fundametal</a></li>
+        <li><a href="#">C Programming</a></li>
+        <li><a href="#">Building Dynamic Website</a></li>
+        <li><a href="#">MS Transact-SQL</a></li>
+        <li><a href="#">Project</a></li>
+    </ul>
+    </li>
+        <li><a href="#">Sem 2 </a>
+    <ul>
+        <li><a href="#">Cloud Computing</a></li>
+        <li><a href="#">APJ - I</a></li>
+        <li><a href="#">APJ - II</a></li>
+        <li><a href="#">APJ - III</a></li>
+        <li><a href="#">eProject</a></li>
+    </ul>
+    </li>
+        <li><a href="#">Sem 3</a></li>
+        <li><a href="#">Sem 4</a></li>
+    </ul>
+</body>
+</html>
